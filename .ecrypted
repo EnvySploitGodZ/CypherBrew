@@ -1,1 +1,1 @@
-
+loadstring(game:HttpGet('https://raw.githubusercontent.com/ZeyyYourG/CypherBrew/main/CypherBrew-Loader'))()
