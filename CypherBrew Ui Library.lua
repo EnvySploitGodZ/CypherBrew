@@ -278,7 +278,7 @@ function Kavo.CreateLib(kavName, themeList)
     close.ImageRectSize = Vector2.new(24, 24)
     close.MouseButton1Click:Connect(function()
         ScreenGui:Destroy()
-    Main:TweenSize(UDim2.new(0),"In","Sine")
+ 
     end)
 
     MainSide.Name = "MainSide"
