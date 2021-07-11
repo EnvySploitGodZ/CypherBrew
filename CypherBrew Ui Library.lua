@@ -191,9 +191,6 @@ function Kavo.CreateLib(kavName, themeList)
             v:Destroy()
         end
     end
-    Main:TweenSize(UDim2.new(0),"In","Sine")
-wait(1)
-Main:TweenSize(UDim2.new(0, 525, 0, 318),"Out","Sine",1)
     local ScreenGui = Instance.new("ScreenGui")
     local Main = Instance.new("Frame")
     local MainCorner = Instance.new("UICorner")
@@ -281,6 +278,7 @@ Main:TweenSize(UDim2.new(0, 525, 0, 318),"Out","Sine",1)
     close.ImageRectSize = Vector2.new(24, 24)
     close.MouseButton1Click:Connect(function()
         ScreenGui:Destroy()
+    Main:TweenSize(UDim2.new(0),"In","Sine")
     end)
 
     MainSide.Name = "MainSide"
