@@ -1,5 +1,9 @@
 local Kavo = {}
-
+Main:TweenSize(UDim2.new(0),"In","Sine")
+wait(0.5)
+wait(0.5)
+wait(0.5)
+Main:TweenSize(UDim2.new(0, 525, 0, 318),"Out","Sine",1)
 local tween = game:GetService("TweenService")
 local tweeninfo = TweenInfo.new
 local input = game:GetService("UserInputService")
